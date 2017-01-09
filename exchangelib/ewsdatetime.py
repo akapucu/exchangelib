@@ -126,6 +126,7 @@ class EWSTimeZone(object):
     PYTZ_TO_MS_MAP = {
         'UTC': 'UTC',
         'GMT': 'GMT Standard Time',
+        'America/Chicago': 'Central Standard Time',
         'US/Pacific': 'Pacific Standard Time',
         'US/Eastern': 'Eastern Standard Time',
         'Europe/Copenhagen': 'Romance Standard Time',
